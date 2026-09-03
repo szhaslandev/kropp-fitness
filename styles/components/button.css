@@ -26,7 +26,6 @@
     padding-right: 80px;
     color: var(--color-light);
     background-color: transparent;
-    border: var(--border);
 
     &::after {
       content: '';
