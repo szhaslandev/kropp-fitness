@@ -23,7 +23,7 @@
     width: clamp(60px, 10.1vw, 194px);
     aspect-ratio: 1;
     margin-right: 30px;
-    background: url('../../icons/bold-arrow-down-right.svg') center/contain no-repeat;
+    background: url('../../icons/bold-arrow-down-right.svg') center / contain no-repeat;
   }
 }
 
@@ -64,5 +64,26 @@
 
   &:not(.is-current):hover::after {
     border-color: var(--color-light-gray);
+  }
+}
+
+@media (max-width: 1024px) {
+  .banner {
+    row-gap: 10px;
+    padding-inline: var(--container-padding-x);
+  }
+}
+
+@media (max-width: 767px) {
+  .banner {
+    padding-block: 20px;
+  }
+
+  .banner-info {
+    margin-bottom: 5px;
+
+    &::before {
+      margin-right: 10px;
+    }
   }
 }
