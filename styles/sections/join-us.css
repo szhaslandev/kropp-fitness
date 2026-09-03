@@ -48,6 +48,10 @@
       filter: invert(1);
     }
   }
+
+  &:active {
+    scale: 0.97;
+  }
 }
 
 .join-us-body {

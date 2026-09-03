@@ -59,6 +59,10 @@
     color: var(--color-light-gray);
     border-color: currentColor;
   }
+
+  &:active {
+    scale: 0.97;
+  }
 }
 
 .header-burger-button-line {
